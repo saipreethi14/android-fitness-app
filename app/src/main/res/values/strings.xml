@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">GET SET GO</string>
+    
+    <string-array name="food_name">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+    </string-array>
+
+    <string-array name="Description">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+
 </resources>
