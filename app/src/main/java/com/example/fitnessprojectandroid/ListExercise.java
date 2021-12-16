@@ -15,7 +15,7 @@ public class ListExercise extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.list_exercise);
 
         e1 = getResources().getStringArray(R.array.exercise_name);
         e2 = getResources().getStringArray(R.array.Description);

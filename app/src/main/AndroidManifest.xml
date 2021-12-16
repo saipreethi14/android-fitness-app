@@ -12,6 +12,8 @@
         android:usesCleartextTraffic="true">
         <activity
             android:name=".descriptionActivity"
+            android:parentActivityName=".ListExercise"
+            android:label="Details"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
@@ -36,6 +38,7 @@
         <activity android:name=".bmiNextPage" />
         <activity android:name=".Aboutus" />
         <activity android:name=".bmi" />
+        <activity android:name=".ListExercise"/>
     </application>
 
 </manifest>
