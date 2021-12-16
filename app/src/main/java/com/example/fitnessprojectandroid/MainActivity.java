@@ -43,119 +43,13 @@ public class MainActivity extends AppCompatActivity {
         passwordField = (EditText) findViewById(R.id.loginPasswordEt);
         googlebutton = (Button) findViewById(R.id.googlebuttonid);
 
-        googlebutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, HomePage.class));
-                finish();
-            }
-        });
-        mAuthListener = firebaseAuth -> {
-
-            FirebaseUser mUsers = firebaseAuth.getCurrentUser();
-
-            if (mUser != null) {
-                Toast.makeText(MainActivity.this, "Signed In", Toast.LENGTH_LONG).show();
-                startActivity(new Intent(MainActivity.this, HomePage.class));
-                finish();
-            } else {
-                Toast.makeText(MainActivity.this, "Not Signed In", Toast.LENGTH_LONG).show();
-            }
-
-
-        };
-        mAuth = FirebaseAuth.getInstance();
-        mAuth.addAuthStateListener(mAuthListener);
-
-        createActButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, CreateAccountActivity.class));
-                finish();
-            }
-        });
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (!TextUtils.isEmpty(emailField.getText().toString())
-                        && !TextUtils.isEmpty(passwordField.getText().toString())) {
-
-                    String email = emailField.getText().toString();
-                    String pwd = passwordField.getText().toString();
-
-                    login(email, pwd);
-
-
-                } else {
-
-                }
+                startActivity(new Intent(MainActivity.this, HomePage.class));
+                finish();
             }
         });
-
-
-    }
-
-    private void openAtivity2() {
-        Intent intent = new Intent(this,DietPage.class);
-        startActivity(intent);
-    }
-
-    private void login(String email, String pwd) {
-
-        mAuth.signInWithEmailAndPassword(email, pwd)
-                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-
-                        if (task.isSuccessful()) {
-                            //Yay!! We're in!
-                            Toast.makeText(MainActivity.this, "Signed in", Toast.LENGTH_LONG)
-                                    .show();
-
-                            startActivity(new Intent(MainActivity.this, HomePage.class));
-                            finish();
-                        } else {
-                            // Not it!
-                        }
-
-                    }
-                });
-
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-
-        if (item.getItemId() == R.id.action_signout) {
-
-            mAuth.signOut();
-
-        }
-
-        return super.onOptionsItemSelected(item);
-
-
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main_menu, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public void onStart() {
-        super.onStart();
-        mAuth.addAuthStateListener(mAuthListener);
-    }
-
-    @Override
-    public void onStop() {
-        super.onStop();
-        if (mAuthListener != null) {
-            mAuth.removeAuthStateListener(mAuthListener);
-        }
 
     }
 }

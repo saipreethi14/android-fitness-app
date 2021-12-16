@@ -26,6 +26,7 @@
             android:label="Details"/>
         <activity android:name=".DietPage"/>
         <activity android:name=".TimeReminder"/>
+        <activity android:name=".HomePage"/>
 
         <receiver android:name=".Alarmclass"/>
     </application>

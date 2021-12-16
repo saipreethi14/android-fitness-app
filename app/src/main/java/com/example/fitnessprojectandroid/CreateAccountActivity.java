@@ -61,65 +61,12 @@ public class CreateAccountActivity extends AppCompatActivity {
         createAccountBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                createNewAccount();
             }
         });
     }
 
-    private void createNewAccount() {
 
-        final String name = firstName.getText().toString().trim();
-        final String lname = lastName.getText().toString().trim();
-        String em = email.getText().toString().trim();
-        String pwd = password.getText().toString().trim();
-
-        if (!TextUtils.isEmpty(name) && !TextUtils.isEmpty(lname)
-                && !TextUtils.isEmpty(em) && !TextUtils.isEmpty(pwd)) {
-
-            mProgressDialog.setMessage("Creating Account...");
-            mProgressDialog.show();
-
-            mAuth.createUserWithEmailAndPassword(em, pwd)
-                    .addOnSuccessListener(new OnSuccessListener<AuthResult>() {
-                        @Override
-                        public void onSuccess(AuthResult authResult) {
-                            if (authResult != null) {
-
-                                StorageReference path = mFirebaseStorage.child("Musers");
-
-                                path.putFile(resultUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-                                    @Override
-                                    public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-
-                                        String userid = mAuth.getCurrentUser().getUid();
-
-                                        DatabaseReference currenUserDb = mDatabaseReference.child(userid);
-                                        currenUserDb.child("firstname").setValue(name);
-                                        currenUserDb.child("lastname").setValue(lname);
-                                        currenUserDb.child("email").setValue(em);
-
-
-                                        mProgressDialog.dismiss();
-
-                                        //send users to postList
-                                        Intent intent = new Intent(CreateAccountActivity.this, Homepage.class);
-                                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                                        startActivity(intent);
-
-
-                                    }
-                                });
-
-                            }
-
-                        }
-                    });
-
-
-        }
 
 
     }
-}
-
 
