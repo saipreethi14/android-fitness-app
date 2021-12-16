@@ -29,5 +29,6 @@
         <activity android:name=".HomePage"/>
 
         <receiver android:name=".Alarmclass"/>
+        <activity android:name= ".bmiNextPage"/>
     </application>
 </manifest>

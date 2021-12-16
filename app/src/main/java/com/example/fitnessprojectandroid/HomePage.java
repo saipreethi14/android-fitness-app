@@ -1,6 +1,8 @@
 package com.example.fitnessprojectandroid;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -31,7 +33,8 @@ public class HomePage extends AppCompatActivity {
         bmib2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent i = new Intent(HomePage.this,bmi.class);
+                startActivity(i);
             }
         });
         coachb3.setOnClickListener(new View.OnClickListener() {
