@@ -27,6 +27,8 @@ public class HomePage extends AppCompatActivity {
         exerciseb1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent i = new Intent(HomePage.this,descriptionActivity.class);
+                startActivity(i);
 
             }
         });

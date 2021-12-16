@@ -1,17 +1,38 @@
 <resources>
     <string name="app_name">GET SET GO</string>
-    
-    <string-array name="food_name">
-        <item>a</item>
-        <item>b</item>
-        <item>c</item>
-        <item>d</item>
-        <item>e</item>
-        <item>f</item>
-        <item>g</item>
+
+    <string-array name="exercise_name">
+        <item>STANDING RUSSIAN TWISTS</item>
+        <item>HANGING LEG RAISES</item>
+        <item>LYING LEG RAISES</item>
+        <item>WINDSHIELD WIPERS</item>
+        <item>AB WHEEL ROLLOUTS</item>
+        <item>SIDE PLANKS</item>
+        <item>FRONT PLANKS</item>
     </string-array>
 
+
+    <string-array name="food_name">
+        <item>Egg</item>
+        <item>Milk</item>
+        <item>Egg</item>
+        <item>Shake</item>
+        <item>Water</item>
+        <item>Juice</item>
+        <item>Chicken</item>
+    </string-array>
+
+
     <string-array name="Description">
+        <item> Planks are a great core stabilizing exercise.</item>
+        <item>The side plank is the same concept as the front plank</item>
+        <item>For starters, get in a kneeling push up position</item>
+        <item>Lay flat on your back with your arms extended out on the ground </item>
+        <item>There are many ways to change up lying leg raises to keep the routine </item>
+        <item>A variation of the leg raise but instead of laying down </item>
+        <item>Similar in motion to standing Russian twists, this movement can be performed with a cable machine</item>
+    </string-array>
+    <string-array name="description">
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -20,6 +41,5 @@
         <item>6</item>
         <item>7</item>
     </string-array>
-
 
 </resources>
