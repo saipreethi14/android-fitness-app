@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         googlebutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, DietPage.class));
+                startActivity(new Intent(MainActivity.this, HomePage.class));
                 finish();
             }
         });
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
             if (mUser != null) {
                 Toast.makeText(MainActivity.this, "Signed In", Toast.LENGTH_LONG).show();
-                startActivity(new Intent(MainActivity.this, Homepage.class));
+                startActivity(new Intent(MainActivity.this, HomePage.class));
                 finish();
             } else {
                 Toast.makeText(MainActivity.this, "Not Signed In", Toast.LENGTH_LONG).show();
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(MainActivity.this, "Signed in", Toast.LENGTH_LONG)
                                     .show();
 
-                            startActivity(new Intent(MainActivity.this, Homepage.class));
+                            startActivity(new Intent(MainActivity.this, HomePage.class));
                             finish();
                         } else {
                             // Not it!

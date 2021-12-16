@@ -1,68 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+    <Button
+        android:id="@+id/exercisebntid"
+        android:layout_width="151dp"
+        android:layout_height="145dp"
+        android:drawableTop="@drawable/exerciseicon"
+        android:text="EXERCISE"
+        android:textColor="@color/black"
+        app:backgroundTint="#11050505"
+        app:iconTint="#EDE7E7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintHorizontal_bias="0.173"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        app:layout_constraintVertical_bias="0.187" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+    <Button
+        android:id="@+id/bmibtnid"
+        android:layout_width="151dp"
+        android:layout_height="145dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:drawableTop="@drawable/bmi"
+        android:text="BMI"
+        android:textColor="@color/black"
+        app:backgroundTint="#11050505"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.846"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/exercisebntid"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.237"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        app:layout_constraintVertical_bias="0.187" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+    <Button
+        android:id="@+id/Coachbtnid"
+        android:layout_width="151dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="28dp"
+        android:drawableTop="@drawable/coachicon"
+        android:text="COACHES"
+        android:textColor="@color/black"
+        app:backgroundTint="#11050505"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintHorizontal_bias="0.173"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        app:layout_constraintTop_toBottomOf="@+id/exercisebntid"
+        app:layout_constraintVertical_bias="0.079" />
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+    <Button
+        android:id="@+id/dietbtnid"
+        android:layout_width="147dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="32dp"
+        android:drawableTop="@drawable/dieticon"
+        android:text="DIET PLAN"
+        android:textColor="@color/black"
+        app:backgroundTint="#11050505"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.846"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintStart_toEndOf="@+id/Coachbtnid"
+        app:layout_constraintTop_toBottomOf="@+id/bmibtnid"
+        app:layout_constraintVertical_bias="0.067" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+    <Button
+        android:id="@+id/ABoutbtnid"
+        android:layout_width="333dp"
+        android:layout_height="131dp"
+        android:drawableTop="@drawable/aboutusicon"
+        android:text="ABOUT US"
+        android:textColor="@color/black"
+        app:backgroundTint="#11050505"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.532"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.938"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        app:layout_constraintVertical_bias="0.866" />
 </androidx.constraintlayout.widget.ConstraintLayout>
