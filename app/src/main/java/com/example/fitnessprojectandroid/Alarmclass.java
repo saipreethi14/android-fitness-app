@@ -10,7 +10,7 @@ import android.content.Intent;
 public class Alarmclass extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
-       int notificationsId = intent.getIntExtra("notificationid",0);
+       int notificationsId = intent.getIntExtra("notificationId",0);
        String message = intent.getStringExtra("todo");
 
        Intent mainIntent = new Intent(context,TimeReminder.class);

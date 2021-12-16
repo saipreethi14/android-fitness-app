@@ -41,7 +41,7 @@ public class TimeReminder extends AppCompatActivity implements View.OnClickListe
         }
 
         Intent intent = new Intent(TimeReminder.this,Alarmclass.class);
-        intent.putExtra("notificationid",notifications);
+        intent.putExtra("notificationId",notifications);
         intent.putExtra("todo",value);
 
         PendingIntent alarmIntent = PendingIntent.getBroadcast(TimeReminder.this,0,
