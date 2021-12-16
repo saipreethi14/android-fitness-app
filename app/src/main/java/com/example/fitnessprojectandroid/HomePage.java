@@ -52,7 +52,8 @@ public class HomePage extends AppCompatActivity {
         aboutusb5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent i = new Intent(HomePage.this,Aboutus.class);
+                startActivity(i);
             }
         });
     }
