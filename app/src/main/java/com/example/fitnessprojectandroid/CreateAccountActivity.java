@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -42,12 +43,6 @@ public class CreateAccountActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.createaccountactivity);
 
-        mDatabase = FirebaseDatabase.getInstance();
-        mDatabaseReference = mDatabase.getReference().child("MUsers");
-
-        mAuth = FirebaseAuth.getInstance();
-
-        mFirebaseStorage = FirebaseStorage.getInstance().getReference().child("Musers");
 
 
         mProgressDialog = new ProgressDialog(this);
@@ -61,6 +56,9 @@ public class CreateAccountActivity extends AppCompatActivity {
         createAccountBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Account Created succussful",Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(CreateAccountActivity.this,MainActivity.class);
+                startActivity(i);
             }
         });
     }

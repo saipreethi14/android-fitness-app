@@ -42,7 +42,7 @@ public class HomePage extends AppCompatActivity {
         coachb3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(HomePage.this,bmi.class);
+                Intent i = new Intent(HomePage.this,findcoaches.class);
                 startActivity(i);
             }
         });
