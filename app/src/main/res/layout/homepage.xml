@@ -10,6 +10,7 @@
         android:id="@+id/exercisebntid"
         android:layout_width="151dp"
         android:layout_height="145dp"
+        android:padding="20dp"
         android:drawableTop="@drawable/exerciseicon"
         android:text="EXERCISE"
         android:textColor="@color/black"
@@ -17,64 +18,70 @@
         app:iconTint="#EDE7E7"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.187" />
+        app:layout_constraintVertical_bias="0.218" />
 
     <Button
         android:id="@+id/bmibtnid"
         android:layout_width="151dp"
         android:layout_height="145dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
+        android:padding="30dp"
         android:drawableTop="@drawable/bmi"
         android:text="BMI"
         android:textColor="@color/black"
         app:backgroundTint="#11050505"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/exercisebntid"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.187" />
+        app:layout_constraintVertical_bias="0.218" />
 
     <Button
         android:id="@+id/Coachbtnid"
         android:layout_width="151dp"
         android:layout_height="145dp"
+        android:padding="30dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
         android:layout_marginTop="28dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
         android:drawableTop="@drawable/coachicon"
         android:text="COACHES"
         android:textColor="@color/black"
         app:backgroundTint="#11050505"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintEnd_toStartOf="@+id/dietbtnid"
+        app:layout_constraintHorizontal_bias="0.23"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/exercisebntid"
-        app:layout_constraintVertical_bias="0.079" />
+        app:layout_constraintVertical_bias="0.021" />
 
     <Button
         android:id="@+id/dietbtnid"
-        android:layout_width="147dp"
-        android:layout_height="146dp"
+        android:layout_width="151dp"
+        android:layout_height="145dp"
         android:layout_marginTop="32dp"
+        android:padding="30dp"
         android:drawableTop="@drawable/dieticon"
         android:text="DIET PLAN"
         android:textColor="@color/black"
         app:backgroundTint="#11050505"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.294"
-        app:layout_constraintStart_toEndOf="@+id/Coachbtnid"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bmibtnid"
-        app:layout_constraintVertical_bias="0.067" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/ABoutbtnid"
         android:layout_width="333dp"
-        android:layout_height="131dp"
+        android:layout_height="145dp"
+        android:padding="30dp"
         android:drawableTop="@drawable/aboutusicon"
         android:text="ABOUT US"
         android:textColor="@color/black"
@@ -83,5 +90,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.866" />
+        app:layout_constraintVertical_bias="0.897" />
 </androidx.constraintlayout.widget.ConstraintLayout>
