@@ -1,7 +1,11 @@
 package com.example.fitnessprojectandroid;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -12,6 +16,7 @@ public class descriptionActivity extends AppCompatActivity {
 
     String data1,data2;
     int myImage;
+    public Button timebtn;
 
     @Override
 
@@ -22,6 +27,16 @@ public class descriptionActivity extends AppCompatActivity {
         mainImageView = findViewById(R.id.imageView1);
         title = findViewById(R.id.titleid);
         description = findViewById(R.id.descriptionid);
+        timebtn = findViewById(R.id.timesetbtnid);
+
+        timebtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(descriptionActivity.this,TimeReminder.class);
+                startActivity(i);
+            }
+        });
+
         getData();
         setData();
     }

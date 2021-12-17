@@ -27,7 +27,7 @@ public class HomePage extends AppCompatActivity {
         exerciseb1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(HomePage.this,descriptionActivity.class);
+                Intent i = new Intent(HomePage.this,ListExercise.class);
                 startActivity(i);
 
             }
@@ -42,13 +42,15 @@ public class HomePage extends AppCompatActivity {
         coachb3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent i = new Intent(HomePage.this,bmi.class);
+                startActivity(i);
             }
         });
         dietb4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent i = new Intent(HomePage.this,DietPage.class);
+                startActivity(i);
             }
         });
         aboutusb5.setOnClickListener(new View.OnClickListener() {
