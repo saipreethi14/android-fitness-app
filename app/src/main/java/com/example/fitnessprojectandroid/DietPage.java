@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -22,8 +23,10 @@ public class DietPage extends AppCompatActivity {
         recycleView = findViewById(R.id.recycleView);
         s1 = getResources().getStringArray(R.array.food_name);
         s2 = getResources().getStringArray(R.array.Description);
+        recycleView.addItemDecoration(new DividerItemDecoration(DietPage.this, DividerItemDecoration.VERTICAL));
 
-MyAdapter myAdapter = new MyAdapter(this,s1,s2,images);
+
+        MyAdapter myAdapter = new MyAdapter(this,s1,s2,images);
   recycleView.setAdapter(myAdapter);
   recycleView.setLayoutManager(new LinearLayoutManager(this));
     }

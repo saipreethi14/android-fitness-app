@@ -3,6 +3,7 @@ package com.example.fitnessprojectandroid;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -20,6 +21,8 @@ public class ListExercise extends AppCompatActivity {
         e1 = getResources().getStringArray(R.array.exercise_name);
         e2 = getResources().getStringArray(R.array.Description);
         recyclerView = findViewById(R.id.recyclerView);
+        recyclerView.addItemDecoration(new DividerItemDecoration(ListExercise.this, DividerItemDecoration.VERTICAL));
+
 
         My_Adapter my_adapter = new My_Adapter(this,e1,e2,image);
         recyclerView.setAdapter(my_adapter);

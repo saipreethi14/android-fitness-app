@@ -7,12 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class HomePage extends AppCompatActivity {
     public Button exerciseb1;
     public Button bmib2;
     public Button coachb3;
     public Button dietb4;
     public Button aboutusb5;
+    public  Button logout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +26,7 @@ public class HomePage extends AppCompatActivity {
         coachb3 = (Button) findViewById(R.id.Coachbtnid);
         dietb4 = (Button) findViewById(R.id.dietbtnid);
         aboutusb5 = (Button) findViewById(R.id.ABoutbtnid);
+        logout = (Button) findViewById(R.id.Logoutidbtn);
 
         exerciseb1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,5 +64,15 @@ public class HomePage extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FirebaseAuth.getInstance().signOut();
+                Intent i = new Intent(HomePage.this,MainActivity.class);
+                startActivity(i);
+            }
+        });
+
     }
 }

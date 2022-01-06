@@ -81,8 +81,8 @@
         android:id="@+id/ABoutbtnid"
         android:layout_width="333dp"
         android:layout_height="145dp"
-        android:padding="30dp"
         android:drawableTop="@drawable/aboutusicon"
+        android:padding="30dp"
         android:text="ABOUT US"
         android:textColor="@color/black"
         app:backgroundTint="#11050505"
@@ -90,5 +90,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.897" />
+        app:layout_constraintVertical_bias="0.841" />
+
+    <Button
+        android:id="@+id/Logoutidbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ABoutbtnid"
+        app:layout_constraintVertical_bias="0.644" />
 </androidx.constraintlayout.widget.ConstraintLayout>
