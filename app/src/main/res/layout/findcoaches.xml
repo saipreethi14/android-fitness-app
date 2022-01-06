@@ -70,11 +70,12 @@
 
                 <TextView
                     android:id="@+id/textView3"
-                    android:layout_width="141dp"
-                    android:layout_height="49dp"
+                    android:layout_width="165dp"
+                    android:layout_height="43dp"
                     android:gravity="center"
                     android:text="JOHN MADDEN"
-                    android:textColor="#0C0C0C"
+                    android:textColor="#5516C5"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -160,8 +161,9 @@
                     android:layout_width="147dp"
                     android:layout_height="36dp"
                     android:gravity="center"
-                    android:text="TOM LAUNDRY"
-                    android:textColor="#121111"
+                    android:text="TOMMY"
+                    android:textColor="#5E16DD"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -231,11 +233,12 @@
 
                 <TextView
                     android:id="@+id/NAME"
-                    android:layout_width="142dp"
+                    android:layout_width="163dp"
                     android:layout_height="40dp"
                     android:gravity="center"
-                    android:text="ROSE ALEXANDER"
-                    android:textColor="#0C0C0C"
+                    android:text="ROSE "
+                    android:textColor="#6217E6"
+                    android:textSize="24sp"
                     android:textStyle="bold" />
 
                 <TextView
