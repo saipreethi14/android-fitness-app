@@ -9,41 +9,41 @@
 
     <Button
         android:id="@+id/exercisebntid"
-        android:layout_width="151dp"
-        android:layout_height="145dp"
+        android:layout_width="148dp"
+        android:layout_height="160dp"
         android:drawableTop="@drawable/extended"
         android:padding="20dp"
         android:text="EXERCISE"
         android:textColor="@color/black"
         app:backgroundTint="#11050505"
         app:iconTint="#EDE7E7"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/ABoutbtnid"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintHorizontal_bias="0.164"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.218" />
+        app:layout_constraintVertical_bias="0.196" />
 
     <Button
         android:id="@+id/bmibtnid"
-        android:layout_width="151dp"
-        android:layout_height="145dp"
+        android:layout_width="148dp"
+        android:layout_height="160dp"
         android:drawableTop="@drawable/calc"
         android:padding="30dp"
         android:text="BMI"
         android:textColor="@color/black"
         app:backgroundTint="#11050505"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/ABoutbtnid"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintHorizontal_bias="0.854"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.218" />
+        app:layout_constraintVertical_bias="0.197" />
 
     <Button
         android:id="@+id/Coachbtnid"
-        android:layout_width="151dp"
-        android:layout_height="145dp"
+        android:layout_width="148dp"
+        android:layout_height="160dp"
         android:layout_marginStart="36dp"
         android:layout_marginLeft="36dp"
         android:layout_marginTop="28dp"
@@ -63,8 +63,8 @@
 
     <Button
         android:id="@+id/dietbtnid"
-        android:layout_width="151dp"
-        android:layout_height="145dp"
+        android:layout_width="148dp"
+        android:layout_height="160dp"
         android:layout_marginTop="32dp"
         android:drawableTop="@drawable/diet"
         android:padding="30dp"
@@ -73,15 +73,15 @@
         app:backgroundTint="#11050505"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bmibtnid"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/ABoutbtnid"
-        android:layout_width="333dp"
-        android:layout_height="145dp"
+        android:layout_width="336dp"
+        android:layout_height="166dp"
         android:drawableTop="@drawable/man"
         android:padding="30dp"
         android:text="ABOUT US"
@@ -95,8 +95,8 @@
 
     <Button
         android:id="@+id/Logoutidbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="129dp"
+        android:layout_height="48dp"
         android:text="Logout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
