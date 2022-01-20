@@ -39,6 +39,7 @@
         <activity android:name=".bmiNextPage" />
         <activity android:name=".Aboutus" />
         <activity android:name=".bmi" />
+        <activity android:name=".Threebutton"/>
         <activity android:name=".ListExercise"/>
 
 

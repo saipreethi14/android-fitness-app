@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/lowid"
         android:layout_width="166dp"
         android:layout_height="176dp"
         android:drawableTop="@drawable/low"
@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.09" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/goodis"
         android:layout_width="166dp"
         android:layout_height="176dp"
         android:drawableTop="@drawable/good1"
@@ -39,7 +39,7 @@
         app:layout_constraintVertical_bias="0.479" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/fatid"
         android:layout_width="166dp"
         android:layout_height="176dp"
         android:layout_marginTop="45dp"
@@ -53,7 +53,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.534"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/goodis"
         app:layout_constraintVertical_bias="0.888" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 

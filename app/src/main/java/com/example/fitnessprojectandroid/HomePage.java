@@ -53,7 +53,7 @@ public class HomePage extends AppCompatActivity {
         dietb4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(HomePage.this,DietPage.class);
+                Intent i = new Intent(HomePage.this,Threebutton.class);
                 startActivity(i);
             }
         });
