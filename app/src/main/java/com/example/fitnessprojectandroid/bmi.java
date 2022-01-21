@@ -10,20 +10,49 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class bmi extends AppCompatActivity {
-    public Button button;
+    private EditText h;
+    private EditText w;
+    private TextView r;
+    private TextView l;
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.bmi_layout);
-        button = (Button)findViewById(R.id.btn);
+        setContentView(R.layout.activity_main);
 
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(bmi.this, bmiNextPage.class);
-                startActivity(intent);
-            }
-        });
+        button = (Button) findViewById(R.id.btn);
+        h = (EditText) findViewById(R.id.height);
+        w = (EditText) findViewById(R.id.weight);
+        r = (TextView) findViewById(R.id.result);
+        l = (TextView) findViewById(R.id.label);
+
     }
+    public void calculateBmi(View v){
+        String heightStr = h.getText().toString();
+        String weightStr = w.getText().toString();
+
+        float heightValue = Float.parseFloat(heightStr) / 100;
+        float weightValue = Float.parseFloat(weightStr);
+        float bmi = weightValue / (heightValue * heightValue);
+        r.setText(String.valueOf(bmi));
+        displayBmi(bmi);
+    }
+
+    private void displayBmi(float bmi){
+        String bmiLabel = "";
+
+        if(bmi <= 18){
+            bmiLabel = "Under Weight";
+        }
+        else if(bmi >= 18 && bmi <= 24){
+            bmiLabel = "Good";
+        }
+
+        else{
+            bmiLabel = "Over Weight";
+        }
+        l.setText(String.valueOf(bmiLabel));
+    }
+
 }
