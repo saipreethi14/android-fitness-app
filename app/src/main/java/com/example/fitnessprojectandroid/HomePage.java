@@ -58,8 +58,8 @@ public class HomePage extends AppCompatActivity {
         bmib2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(HomePage.this,bmi.class);
-                startActivity(i);
+                Intent j = new Intent(HomePage.this,bmi.class);
+                startActivity(j);
             }
         });
         coachb3.setOnClickListener(new View.OnClickListener() {

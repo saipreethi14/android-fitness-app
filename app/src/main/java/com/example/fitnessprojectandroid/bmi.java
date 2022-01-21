@@ -19,7 +19,7 @@ public class bmi extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.bmi_layout);
 
         button = (Button) findViewById(R.id.btn);
         h = (EditText) findViewById(R.id.height);
