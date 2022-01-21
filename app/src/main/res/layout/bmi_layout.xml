@@ -5,16 +5,17 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="#78290f"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="25dp"
+        android:layout_marginVertical="35dp"
         android:text="Calculate Your BMI"
-        android:textColor="@color/black"
-        android:textSize="38sp"
+        android:textColor="#ffecd1"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
     <TextView
@@ -22,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:text="Weight"
-        android:textColor="@color/black"
+        android:textColor="#ffecd1"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -35,7 +36,7 @@
         android:inputType="numberDecimal"
         android:layout_marginVertical="15dp"
         android:hint="Enter your weight"
-        android:textColorHint="#909090"
+        android:textColorHint="#ffecd1"
         android:background="@drawable/edit_bg"
         />
 
@@ -45,7 +46,7 @@
         android:layout_marginHorizontal="30dp"
         android:layout_marginVertical="15dp"
         android:text="Height"
-        android:textColor="@color/black"
+        android:textColor="#ffecd1"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -57,6 +58,7 @@
         android:padding="12dp"
         android:inputType="numberDecimal"
         android:hint="Enter your height"
+        android:textColorHint="#ffecd1"
         android:background="@drawable/edit_bg"
         />
 
@@ -66,7 +68,7 @@
         android:layout_marginHorizontal="30dp"
         android:layout_marginVertical="15dp"
         android:text="Gender"
-        android:textColor="@color/black"
+        android:textColor="#ffecd1"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -82,7 +84,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Male"
-            android:buttonTint="@color/black"
+            android:textColor="#ffecd1"
+            android:buttonTint="#ffecd1"
             android:layout_marginHorizontal="30dp"
             />
 
@@ -91,7 +94,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Female"
-            android:buttonTint="@color/black"
+            android:textColor="#ffecd1"
+            android:buttonTint="#ffecd1"
             android:layout_marginHorizontal="30dp"
             />
 
@@ -106,7 +110,8 @@
         android:background="@drawable/btn_bg"
         android:onClick="calculateBmi"
         android:text="Calculate"
-        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textColor="#78290f"
 
         android:textStyle="bold"
         tools:ignore="OnClick" />
@@ -115,9 +120,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Your Result"
+        android:layout_marginLeft="75dp"
         android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="35sp"
+        android:textColor="#ffecd1"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
     <TextView
@@ -125,8 +131,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:textSize="55sp"
-        android:textColor="#909090"
+        android:textSize="30sp"
+        android:textColor="#ffecd1"
         />
 
     <TextView
@@ -135,6 +141,6 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textSize="25sp"
-        android:textColor="#909090"
+        android:textColor="#ffecd1"
         />
 </LinearLayout>

@@ -53,6 +53,7 @@ public class bmi extends AppCompatActivity {
             bmiLabel = "Over Weight";
         }
         l.setText(String.valueOf(bmiLabel));
+        r.setText(String.format("%.2f", bmi));
     }
 
 }
