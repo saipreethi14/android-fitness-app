@@ -106,7 +106,7 @@
         android:background="@drawable/btn_bg"
         android:onClick="calculateBmi"
         android:text="Calculate"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
 
         android:textStyle="bold"
         tools:ignore="OnClick" />
