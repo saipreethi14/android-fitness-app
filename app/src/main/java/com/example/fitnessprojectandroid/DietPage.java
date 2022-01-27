@@ -22,7 +22,7 @@ public class DietPage extends AppCompatActivity {
 
         recycleView = findViewById(R.id.recycleView);
         s1 = getResources().getStringArray(R.array.food_name);
-        s2 = getResources().getStringArray(R.array.Description);
+        s2 = getResources().getStringArray(R.array.description11);
         recycleView.addItemDecoration(new DividerItemDecoration(DietPage.this, DividerItemDecoration.VERTICAL));
 
 

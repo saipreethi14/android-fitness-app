@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if(!task.isSuccessful()){
                                         Toast.makeText(MainActivity.this,"LOgin Error,Palse Login In",Toast.LENGTH_LONG).show();
-                                    }else{
+                                     }else{
                                         Intent in = new Intent(MainActivity.this,HomePage.class);
                                         startActivity(in);
                                     }
