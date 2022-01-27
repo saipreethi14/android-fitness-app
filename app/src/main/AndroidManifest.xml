@@ -10,8 +10,11 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+
         android:theme="@style/Theme.AppCompat.Light"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="true"
+        tools:ignore="MissingClass">
+
         <activity
             android:name=".descriptionActivity"
             android:parentActivityName=".ListExercise"
@@ -29,18 +32,27 @@
         <activity android:name=".CreateAccountActivity" />
         <activity
             android:name=".Fooddescription"
+
             android:label="Details"
             android:parentActivityName=".DietPage" />
-        <activity android:name=".DietPage" />
-        <activity android:name=".TimeReminder" />
-        <activity android:name=".HomePage" />
-<activity android:name=".findcoaches"/>
+        <activity android:name=".DietPage"
+            android:label="Diet Plan"/>
+        <activity android:name=".TimeReminder"
+            android:label="Set timer"/>
+        <activity android:name=".HomePage"
+            android:label="HomePage"/>
+<activity android:name=".findcoaches"
+    android:label="Find Coach"/>
         <receiver android:name=".Alarmclass" />
         <activity android:name=".bmiNextPage" />
-        <activity android:name=".Aboutus" />
-        <activity android:name=".bmi" />
-        <activity android:name=".Threebutton"/>
-        <activity android:name=".ListExercise"/>
+        <activity android:name=".Aboutus"
+            android:label="About Us"/>
+        <activity android:name=".bmi"
+            android:label="Calculate BMI"/>
+        <activity android:name=".Threebutton"
+            android:label="Select Your Option"/>
+        <activity android:name=".ListExercise"
+            android:label="List of exercises"/>
 
 
 

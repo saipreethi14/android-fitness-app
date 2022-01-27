@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#78290f"
+    android:background="#b56576"
     tools:context=".MainActivity">
 
     <Button
@@ -17,7 +17,7 @@
         android:text="EXERCISE"
         android:textStyle="bold"
         android:textSize="15sp"
-        android:textColor="#78290f"
+        android:textColor="#b56576"
 
         app:iconTint="#EDE7E7"
 
@@ -38,7 +38,7 @@
         android:text="BMI"
         android:textStyle="bold"
         android:textSize="15sp"
-        android:textColor="#78290f"
+        android:textColor="#b56576"
 
         app:layout_constraintBottom_toTopOf="@+id/ABoutbtnid"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,7 +62,7 @@
         android:text="COACHES"
         android:textStyle="bold"
         android:textSize="15sp"
-        android:textColor="#78290f"
+        android:textColor="#b56576"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/dietbtnid"
@@ -82,7 +82,7 @@
         android:text="DIET PLAN"
         android:textStyle="bold"
         android:textSize="15sp"
-        android:textColor="#78290f"
+        android:textColor="#b56576"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -101,7 +101,7 @@
         android:text="ABOUT US"
         android:textStyle="bold"
         android:textSize="15sp"
-        android:textColor="#78290f"
+        android:textColor="#b56576"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -116,8 +116,8 @@
         android:text="Logout"
         android:textStyle="bold"
         android:textSize="15sp"
-        android:textColor="#78290f"
-        android:background="@drawable/round_btn"
+        android:textColor="#ffecd1"
+        android:background="@drawable/btn_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

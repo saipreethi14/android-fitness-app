@@ -5,6 +5,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="wrap_content"
+
 android:id="@+id/mainLayout">
 
 <RelativeLayout
@@ -12,7 +13,7 @@ android:id="@+id/mainLayout">
     android:layout_height="wrap_content"
     android:padding="16dp"
     tools:ignore="MissingConstraints"
-    android:background="@color/gray"
+    android:background="#b56576"
     android:layout_marginBottom="5dp">
 
 
@@ -21,6 +22,7 @@ android:id="@+id/mainLayout">
         android:layout_width="206dp"
         android:layout_height="32dp"
         android:textStyle="bold"
+        android:textColor="#ffecd1"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
@@ -37,6 +39,7 @@ android:id="@+id/mainLayout">
         android:id="@+id/imageid"
         android:layout_width="151dp"
         android:layout_height="234dp"
+
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -47,6 +50,8 @@ android:id="@+id/mainLayout">
 
     <TextView
         android:id="@+id/ageid"
+        android:textStyle="bold"
+        android:textColor="#ffecd1"
         android:layout_width="206dp"
         android:layout_height="32dp"
         android:layout_below="@+id/nameid"
@@ -63,6 +68,8 @@ android:id="@+id/mainLayout">
 
     <TextView
         android:id="@+id/proficientid"
+        android:textStyle="bold"
+        android:textColor="#ffecd1"
         android:layout_width="206dp"
         android:layout_height="32dp"
         android:layout_below="@+id/ageid"
@@ -79,6 +86,8 @@ android:id="@+id/mainLayout">
 
     <TextView
         android:id="@+id/mailid"
+        android:textStyle="bold"
+        android:textColor="#ffecd1"
         android:layout_width="206dp"
         android:layout_height="32dp"
         android:layout_below="@+id/proficientid"
@@ -96,6 +105,7 @@ android:id="@+id/mainLayout">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
+
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="1dp"

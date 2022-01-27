@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#78290f"
+    android:background="#b56576"
     tools:context=".MainActivity">
 
     <Button
@@ -13,7 +13,7 @@
         android:layout_height="176dp"
         android:drawableTop="@drawable/low"
         android:padding="30dp"
-        android:text="low"
+        android:text="Underweight"
         android:textStyle="bold"
         android:textSize="15sp"
         android:textColor="@color/black"
@@ -32,7 +32,7 @@
         android:layout_height="176dp"
         android:drawableTop="@drawable/good1"
         android:padding="30dp"
-        android:text="good"
+        android:text="Good"
         android:textStyle="bold"
         android:textSize="15sp"
         android:textColor="@color/black"
@@ -52,7 +52,7 @@
         android:layout_marginBottom="56dp"
         android:drawableTop="@drawable/fat"
         android:padding="30dp"
-        android:text="fat"
+        android:text="Overweight"
         android:textStyle="bold"
         android:textSize="15sp"
         android:textColor="@color/black"

@@ -13,13 +13,13 @@
 
 
     <string-array name="food_name">
-        <item>Egg</item>
-        <item>Milk</item>
-        <item>Egg</item>
-        <item>Shake</item>
-        <item>Water</item>
-        <item>Juice</item>
+        <item>ALmond</item>
         <item>Chicken</item>
+        <item>Egg</item>
+        <item>Fish</item>
+        <item>Milk</item>
+        <item>Pulses</item>
+        <item>Protien Powder</item>
     </string-array>
 
 
