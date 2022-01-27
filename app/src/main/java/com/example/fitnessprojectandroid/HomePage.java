@@ -84,7 +84,7 @@ public class HomePage extends AppCompatActivity {
             }
         });
 
-        if(acct != null){
+        if(acct != null){ //sign in with google
             logout.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -105,8 +105,6 @@ public class HomePage extends AppCompatActivity {
                 }
             });
         }
-
-
     }
     private void signOut() {
         mGoogleSignInClient.signOut()

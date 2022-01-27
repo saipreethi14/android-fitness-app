@@ -29,17 +29,17 @@ public class My_Adapter extends RecyclerView.Adapter<My_Adapter.MyViewHolder> {
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(context);
-        View view = inflater.inflate(R.layout.row,parent,false);
+        View view = inflater.inflate(R.layout.row,parent,false);//create view
 
         return new MyViewHolder(view);
 
     }
 
     @Override
-    public void onBindViewHolder(@NonNull MyViewHolder holder,  int position) {
-        holder.myTxt1.setText(data1[position]);
-        holder.myTxt2.setText(data2[position]);
-        holder.myImg.setImageResource(images[position]);
+    public void onBindViewHolder(@NonNull MyViewHolder holder,  int position) { // put data
+        holder.myTxt1.setText(data1[position]); //data1[0] name
+        holder.myTxt2.setText(data2[position]); //data2[0] description
+        holder.myImg.setImageResource(images[position]); //images[0] image
         holder.mainLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

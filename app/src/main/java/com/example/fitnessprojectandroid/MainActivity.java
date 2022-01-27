@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_main);
+
         loginButton = (Button) findViewById(R.id.loginbuttonEt);
         createActButton = (Button) findViewById(R.id.loginCreateAccount);
         emailField = (EditText) findViewById(R.id.loginEmaiEt);

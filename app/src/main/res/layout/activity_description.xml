@@ -29,6 +29,7 @@ tools:context=".descriptionActivity">
     android:textAlignment="center"
     android:textSize="15sp"
     android:textStyle="bold"
+
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHorizontal_bias="0.497"
@@ -43,7 +44,7 @@ tools:context=".descriptionActivity">
         android:layout_height="221dp"
         android:text="description"
 
-
+        android:inputType="textMultiLine"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
