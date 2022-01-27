@@ -1,7 +1,6 @@
 package com.example.fitnessprojectandroid;
 
 import android.app.AlarmManager;
-import android.app.AppComponentFactory;
 import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +10,9 @@ import android.widget.TimePicker;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.fitnessprojectandroid.Alarmclass;
+import com.example.fitnessprojectandroid.R;
 
 import java.util.Calendar;
 
@@ -40,7 +42,7 @@ public class TimeReminder extends AppCompatActivity implements View.OnClickListe
             tx.setText(value);
         }
 
-        Intent intent = new Intent(TimeReminder.this,Alarmclass.class);
+        Intent intent = new Intent(TimeReminder.this, Alarmclass.class);
         intent.putExtra("notificationId",notifications);
         intent.putExtra("todo",value);
 
@@ -68,6 +70,6 @@ public class TimeReminder extends AppCompatActivity implements View.OnClickListe
                 Toast.makeText(this,"Canceled",Toast.LENGTH_SHORT).show();
                 break;
 
-                }
+        }
     }
 }
