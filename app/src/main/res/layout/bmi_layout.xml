@@ -36,7 +36,7 @@
         android:inputType="numberDecimal"
         android:layout_marginVertical="15dp"
         android:hint="Enter your weight"
-        android:textColorHint="#ffecd1"
+
         android:background="@drawable/edit_bg"
         />
 
@@ -58,7 +58,7 @@
         android:padding="12dp"
         android:inputType="numberDecimal"
         android:hint="Enter your height"
-        android:textColorHint="#ffecd1"
+
         android:background="@drawable/edit_bg"
         />
 
@@ -110,8 +110,8 @@
         android:background="@drawable/btn_bg"
         android:onClick="calculateBmi"
         android:text="Calculate"
-        android:textSize="20dp"
-        android:textColor="#78290f"
+        android:textSize="16sp"
+        android:textColor="#ffecd1"
 
         android:textStyle="bold"
         tools:ignore="OnClick" />
@@ -123,7 +123,7 @@
         android:layout_marginLeft="75dp"
         android:textAlignment="center"
         android:textColor="#ffecd1"
-        android:textSize="30sp"
+        android:textSize="28sp"
         android:textStyle="bold" />
 
     <TextView
@@ -131,8 +131,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:textSize="30sp"
-        android:textColor="#ffecd1"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
         />
 
     <TextView
@@ -140,7 +141,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:textSize="25sp"
+        android:textSize="22sp"
+        android:textStyle="italic"
         android:textColor="#ffecd1"
         />
 </LinearLayout>

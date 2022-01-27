@@ -49,12 +49,12 @@
 
     <Button
         android:id="@+id/reminderbtnid"
-        android:layout_width="230dp"
-        android:layout_height="45dp"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
         android:layout_marginLeft="5dp"
         android:background="@drawable/btn_bg"
         android:text="SET REMINDER"
-        android:textColor="#EFECEC"
+        android:textColor="#ffecd1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.533"
