@@ -14,23 +14,23 @@
         <entry key="app/src/main/res/drawable/edit_bg.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/imgg.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/round_btn.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/aboutus.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_description.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/aboutus.xml" value="0.13508612873980055" />
+        <entry key="app/src/main/res/layout/activity_description.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/bmi_layout.xml" value="0.1" />
         <entry key="app/src/main/res/layout/bminextpage_layout.xml" value="0.1" />
         <entry key="app/src/main/res/layout/coachrow.xml" value="0.1157548125633232" />
         <entry key="app/src/main/res/layout/createaccountactivity.xml" value="0.1" />
         <entry key="app/src/main/res/layout/dietpage.xml" value="0.11775362318840579" />
         <entry key="app/src/main/res/layout/findcoaches.xml" value="0.1157548125633232" />
-        <entry key="app/src/main/res/layout/fooddescription.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fooddescription.xml" value="0.165" />
         <entry key="app/src/main/res/layout/good.xml" value="0.165" />
         <entry key="app/src/main/res/layout/homepage.xml" value="0.1" />
         <entry key="app/src/main/res/layout/list_exercise.xml" value="0.1" />
         <entry key="app/src/main/res/layout/my_row.xml" value="0.1157548125633232" />
         <entry key="app/src/main/res/layout/row.xml" value="0.1" />
         <entry key="app/src/main/res/layout/three_buttonspage.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/time_reminderpage.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/time_reminderpage.xml" value="0.25" />
       </map>
     </option>
   </component>

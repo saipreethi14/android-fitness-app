@@ -4,6 +4,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
+    android:background="#b56576"
 tools:context=".descriptionActivity">
 
 <ImageView
@@ -55,15 +56,16 @@ tools:context=".descriptionActivity">
     <Button
         android:id="@+id/timesetbtnid"
         android:layout_width="188dp"
-        android:layout_height="72dp"
-        android:background="#020202"
+        android:layout_height="52dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/btn_bg"
         android:text="SET TIME"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/descriptionid"
-        app:layout_constraintVertical_bias="0.935" />
+        app:layout_constraintTop_toBottomOf="@+id/descriptionid" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

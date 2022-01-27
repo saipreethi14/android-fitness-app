@@ -44,7 +44,7 @@
 <activity android:name=".findcoaches"
     android:label="Find Coach"/>
         <receiver android:name=".Alarmclass" />
-        <activity android:name=".bmiNextPage" />
+<!--        <activity android:name=".bmiNextPage" />-->
         <activity android:name=".Aboutus"
             android:label="About Us"/>
         <activity android:name=".bmi"

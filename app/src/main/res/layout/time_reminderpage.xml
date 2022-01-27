@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#b56576"
     android:gravity="center_horizontal"
     android:padding="10dp">
 
@@ -13,10 +14,10 @@
     <TextView
         android:id="@+id/itemnameid"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_height="wrap_content" />
     <TimePicker
         android:id="@+id/timepicker"
+
         android:layout_width="300dp"
         android:layout_height="342dp"/>
     <LinearLayout
@@ -24,17 +25,23 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:layout_marginTop="30dp">
+
         <Button
             android:id="@+id/setbtn"
-            android:layout_width="wrap_content"
+            android:layout_width="108dp"
             android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_bg"
             android:text="SET"
-            android:layout_marginRight="20dp"/>
+            android:textColor="#ffecd1" />
+
         <Button
             android:id="@+id/cancelbtn"
-            android:layout_width="wrap_content"
+            android:layout_width="102dp"
             android:layout_height="wrap_content"
-            android:text="CANCEL"/>
+            android:background="@drawable/btn_bg"
+            android:text="CANCEL"
+            android:textColor="#ffecd1" />
 
     </LinearLayout>
 </LinearLayout>

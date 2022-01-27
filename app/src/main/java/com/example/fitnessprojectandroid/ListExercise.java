@@ -11,7 +11,7 @@ public class ListExercise extends AppCompatActivity {
     RecyclerView recyclerView;
 
     String e1[], e2[];
-    int image[] = {R.drawable.sidetwist,R.drawable.feetelevated,R.drawable.lyinglegexr,R.drawable.windsheildwipers,R.drawable.wheelroller,R.drawable.sideplank,R.drawable.frontplank};
+    int image[] = {R.drawable.frontplank,R.drawable.sideplank,R.drawable.legsexr,R.drawable.windsheildwipers,R.drawable.wheelroll,R.drawable.tiptoe,R.drawable.squats};
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

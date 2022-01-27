@@ -12,7 +12,7 @@ public class DietPage extends AppCompatActivity {
 
    RecyclerView recycleView;
     String s1[], s2[];
-    int images[] = {R.drawable.almond, R.drawable.chicken, R.drawable.eggs, R.drawable.fish, R.drawable.milk, R.drawable.pulses, R.drawable.proteinpowder
+    int images[] = {R.drawable.almonds, R.drawable.chicken, R.drawable.egg, R.drawable.fish, R.drawable.milk, R.drawable.pulse, R.drawable.proteinpowder
     };
 
     @Override

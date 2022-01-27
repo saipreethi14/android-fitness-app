@@ -12,23 +12,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="86dp"
-        android:layout_marginLeft="86dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="56dp"
         android:layout_marginEnd="86dp"
-        android:layout_marginRight="86dp"
         android:text="Our team"
-        android:textColor="#ffecd1"
+        android:textColor="@color/black"
         android:textSize="36sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
         android:layout_width="1680dp"
-        android:layout_height="480dp"
-        android:layout_marginTop="164dp"
+        android:layout_height="450dp"
 
+        android:layout_marginTop="164dp"
         android:layout_marginBottom="80dp"
         android:background="@drawable/aboutclr"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -58,8 +58,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="260dp"
                 android:layout_height="229dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginStart="32dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="40dp"
                 android:text='            2092039 \n\n "I value a team environment because talking things out, leaning on each other,  and working collaboratively are \n so crucial to anyone \n success ".'
@@ -69,7 +68,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintVertical_bias="0.18" />
 
             <ImageView
                 android:id="@+id/imageView2"

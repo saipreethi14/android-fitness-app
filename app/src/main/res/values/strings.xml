@@ -2,44 +2,44 @@
     <string name="app_name">GET SET GO</string>
 
     <string-array name="exercise_name">
-        <item>STANDING RUSSIAN TWISTS</item>
-        <item>HANGING LEG RAISES</item>
+        <item>FRONT PLANK</item>
+        <item>SIDE PLANK</item>
         <item>LYING LEG RAISES</item>
         <item>WINDSHIELD WIPERS</item>
         <item>AB WHEEL ROLLOUTS</item>
-        <item>SIDE PLANKS</item>
-        <item>FRONT PLANKS</item>
+        <item>SUMO SQUATS</item>
+        <item>SQUATS</item>
     </string-array>
 
 
     <string-array name="food_name">
-        <item>ALmond</item>
+        <item>Almond</item>
         <item>Chicken</item>
         <item>Egg</item>
         <item>Fish</item>
         <item>Milk</item>
         <item>Pulses</item>
-        <item>Protien Powder</item>
+        <item>Protein Powder</item>
     </string-array>
 
 
     <string-array name="Description">
-        <item>Planks are a great core stabilizing exercise. Your entire core is stabilized through constant tension, so nothing is neglected and they are completely safe.  Get in pushup position on your forearms with your elbows bent.  Hold yourself up in a straight line and pull your belly button in to create tension.  Hold for as long as you can before your back sags to the floor.  For a more difficult variation, raise your opposite leg and arm off the ground.</item>
+        <item>Planks are a great core stabilizing exercise. Your entire core is stabilized through constant tension, so nothing is neglected and they are completely safe.  Get in push up position on your forearms with your elbows bent.  Hold yourself up in a straight line and pull your belly button in to create tension.  Hold for as long as you can before your back sags to the floor.  For a more difficult variation, raise your opposite leg and arm off the ground.</item>
         <item>The side plank is the same concept as the front plank except this time you’ll be extended on your side with only one elbow and forearm on the ground. Your other hand can point straight up in the air or rest of your hips.  Raise your hips off the ground and keep tension in the core to form a straight line with your body.  Hold until failure.  A variation of the side plank can be moving your hips in a side to side motion (up and down off the ground) for repetitions instead of holding still.  Side planks are great for targeting the obliques.</item>
-        <item>For starters, get in a kneeling pushup position – like the plank but with your knees resting on the ground.  Hold the ab wheel between your hands and push it out in front of you going as far forward and as low to the ground as you are able while at the same time keeping your back straight and core tense.  Then, the hard part, is rolling the wheel back into the start position.  The only part of your body that should be on the ground are your knees and toes.  No more than 10 rollouts per set are needed with the ab roller.</item>
+        <item>For starters, get in a kneeling push up position – like the plank but with your knees resting on the ground.  Hold the ab wheel between your hands and push it out in front of you going as far forward and as low to the ground as you are able while at the same time keeping your back straight and core tense.  Then, the hard part, is rolling the wheel back into the start position.  The only part of your body that should be on the ground are your knees and toes.  No more than 10 rollouts per set are needed with the ab roller.</item>
         <item>Lay flat on your back with your arms extended out on the ground in a “T” shape for stability as needed.  Start with your legs 90º vertical in the air. Keeping them together, let your legs fall to a side until they are just a few inches off the ground.  Make sure to keep your back and shoulders planted to the ground by only twisting at the waist.  Now lift your legs back to the starting position and repeat the movement to the other side.  These will absolutely obliterate your obliques.</item>
         <item>There are many ways to change up lying leg raises to keep the routine from becoming too dull.  While holding your legs a foot above the ground, them over one another horizontally like they are a pair of scissors and keep crossing until failure.  Or cross them up and down vertically.  Or hold them together and move them in little circles.  Or perform the bicycle motion with your legs.  Endless possibilities.</item>
-        <item>A variation of the leg raise but instead of laying down on the ground or on a bench, you instead hang by your hands on a pullup bar.  However, it can also be done on a set of parallel dip bars if only those are available. Start in the hanging pullup position on a pullup bar and lift your knees up toward the ceiling until they are at waist level.  Don’t forget to contract your abdominal muscles to aid you.  Then lower to the starting position and repeat.  For a more difficult version of this workout, extend your legs and bring the feet up rather than just your bent knees.</item>
+        <item>Start in a traditional squat stance with your feet about shoulder-width apart and toes pointed forward. Clasp your hands together at your chest.Take a step to the side with your right foot until your stance is 3–4 feet wide, or wider than hip width. Wider is OK as long as you can perform the move correctly.Angle your toes out and away from the center of your body (about 45 degrees) by laterally rotating at the hip. Make sure your knees are still tracking over your toes.</item>
         <item>Initiate the movement by sending the hips back as if you’re sitting back into an invisible chair. Bend knees to lower down as far as possible with chest lifted in a controlled movement. Keep lower back neutral. Press through heels to stand back up to starting position.Repeat,Aim to get thighs at least parallel to the floor. To do this, squat down so your thighs are even with your knees. If mobility allows, lower further. As you come back up, make sure hips are set right under your ribs,you don’t want your hips to pull too far back.</item>
     </string-array>
     <string-array name="description11">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
+        <item>Almonds contain vitamins, minerals, protein, and fiber, and so they may offer a number of health benefits. Just a handful of almonds — approximately 1 ounce contains one-eighth of a person’s daily protein needs.\n \n * Energy (calories)	164 \n * Protein (g)	6.0 \n * Calcium (mg)	76.3 \n * Vitamin E (mg)	7.27</item>
+        <item>Chicken is highly nutritious and a good source of protein. Adding chicken to your diet may help support weight loss, muscle growth, and bone health. One 3-ounce (85-gram) serving of chicken breast contains :\n \n * Calories: 122 \n * Protein: 24 grams \n * Fat: 3 grams \n * Carbs: 0 grams \n * Niacin: 51% of the Daily Value (DV)</item>
+        <item>Eggs are an excellent source of high quality protein. They supply all of the essential amino acids your body needs to build proteins. The egg yolk is rich in fat and cholesterol, as well as many vitamins and minerals.\n\n * Calories	185	\n * Protein	13 grams \n * Fat	14 grams \n * Carbs	1 gram \n * Choline	263 mg</item>
+        <item>Fish is among the healthiest foods on the planet.It’s loaded with important nutrients, such as protein and vitamin D which are incredibly important for your body and brain. Fish is good source of nutrients like: \n\n * Vitamin D \n * Vitamin B12 \n * Iron \n * Phosphorous \n * Niacin</item>
+        <item>Milk is an excellent source of vitamins and minerals.The nutritional profile of milk is impressive.After all, it’s designed to fully nourish newborn animals.Just one cup (244 grams) of whole cow’s milk contains (2):\n \n * Calories: 146\n * Protein: 8 grams\n * Fat: 8 grams\n * Calcium: 28% of the RDA\n * Vitamin D: 24% of the RDA</item>
+        <item>Eating pulses can lower blood cholesterol, reduce blood pressure and help with body weight management, which are all risk factors for heart disease. In the numerous varieties of pulses, each and every type can be beneficial to your body considering you consume it in a controlled manner.</item>
+        <item>People commonly use whey as supplementation, alongside resistance exercise,used for many things including muscle building and weight loss.\n\n * Aiding weight loss\n * Anti-cancer properties\n * Lowering cholesterol</item>
     </string-array>
 
 </resources>
