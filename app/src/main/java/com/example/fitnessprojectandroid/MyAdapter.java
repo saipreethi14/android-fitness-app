@@ -33,21 +33,23 @@ public class MyAdapter  extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull MyAdapter.MyViewHolder holder, int position) {
-        holder.myText1.setText(data1[position]);
-        holder.myText2.setText(data2[position]);
-        holder.myImage.setImageResource(images[position]);
+    public void onBindViewHolder(@NonNull MyAdapter.MyViewHolder holder, int position) { // put data
+        holder.myText1.setText(data1[position]); //data1[0] name
+        holder.myText2.setText(data2[position]); //data2[0] description
+        holder.myImage.setImageResource(images[position]); //images[0] image
         holder.mainLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context,Fooddescription.class);
-                intent.putExtra("data1",data1[position]);
-                intent.putExtra("data2",data2[position]);
-                intent.putExtra("myImage",images[position]);
+                intent.putExtra("data1",data1[holder.getAdapterPosition()]);
+                intent.putExtra("data2",data2[holder.getAdapterPosition()]);
+                intent.putExtra("myImage",images[holder.getAdapterPosition()]);
                 context.startActivity(intent);
             }
         });
     }
+
+
 
     @Override
     public int getItemCount() {
